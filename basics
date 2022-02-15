@@ -6,6 +6,7 @@ now let,const and var available
 Node js ia a c++ program with V8 engine of google chrome JS engine
 Node js is a javascript runtime bulit on Chrome's V8 script engine.
 
+executing on VSCode editor
 in VSCOde > new file - index.html > type ! press tab - to get a default html
 open extensions tab >> search for live server - Ritwick Dey dev local server>> install live server - to serve the webapplicatins--  
 then restart vscode >> explorer tab then right click index.html - open with live server to open the default browser/chrome pointed to the adrress- from thats where the webapplication is served from
@@ -22,4 +23,24 @@ but for a huge application this is not the right way - the js code has to be in 
 to separate the js from html file - create a file with extension-  .js >> index.js   >>>  
 and then in html file -index.html put this index.js file has to be refrenced to the index.html file - in <script attribute src and set to index.js need to refrence that file to here
  <script src= "index.js">
+
+executing on node js
+go the folder location open command prompt and type node index.js -- the ouptut should be heelo world as in index.js file
+node js--node js is program that includes google's v8 javascript engine - a runtime environment to execute js code
+
+executing on cmd prompt >> go the folder location open cmd prompt > type node index.js - output should be hello world same as in the index.js file
+
+in VSCode there is an integrated terminal>> open that - VSCOde>View>Integrated terminal - will open with folder pointing to the current working folder- the same folder where the index.js and index.html files are present
+or open new terminal- select the workong folder- in terminal type node index.js 
+
+
+
+
+
+
+
+
+
+
+
 
