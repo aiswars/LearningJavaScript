@@ -53,6 +53,22 @@ console.log(name);
 
 create a new .js file and give its reference in html file in <script src=
 
+let datatype - for variables
+rules for the names 
+canot be a reserved keywords - like if, while
+should be meaningful
+cannot be number
+cannot contain space or hyphen (-)
+should be in camelCase
+are case sensitive - let firstName and let FirstName are different
+can declare multiple variables in same line - let firstName = 'ice' , lastName;
+
+const for declaring constants
+const InterestRate = 0.3;
+
+
+
+
 
 
 
