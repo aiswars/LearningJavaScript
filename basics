@@ -211,6 +211,128 @@ console.log() is also a function
 
 
 
+YT Traversy Media
 
+using back ticks - `` >>//back tick on left side with ~ below Esc key
+template Strings from ES6 or es2015
+conole.log(`this is javascript` ); //back tick on left side with ~ below Esc key
+const subject = 'javascript'
+conole.log(`this is ${subject}` ); //instead of using + to concatenate use ${} - no + no ''
+
+
+Typescript is superset of javascript - javascript with some added features like static typing -data type declaration- the data type has to be defined while declaration
+const name = 'ice'; //in js
+const name: string =  'ice'; //in ts
+
+
+
+//using back ticks  ``  template Strings from ES6 or es2015
+const subject = 'javascript'
+console.log(`this is ${subject}` ); 
+const s1 = `this is ${subject}` ;
+console.log(s1);
+
+//Strings
+const s = 'Hello World!'
+console.log(s);
+console.log(s.toUpperCase);
+console.log(s.length); //12
+console.log(s.substring(0,5)); //start index from 0 and  endindex from 1 to 5
+s.substring(0,5); //hello
+s.split('');
+const s2 = 'technology, computers, code';
+console.log(s2.indexOf('code'));
+console.log(s2.split(', ')); //split s2 by , space - 
+
+//aarays are varibales that hold multiple values -JS allows to store data of any type
+const numbers = new Array(1,2,3,4,5);
+console.log(numbers);
+
+const fruits = ['apples, oranges, pears'];
+console.log(fruits);
+console.log(fruits[2]); //pears - output -undefined?? value at that index
+//cant re assign the array>> fruits = []; //will give error
+fruits[3] = 'grapes';
+console.log(fruits);
+
+console.log('push to add at the end');
+fruits.push('mangoes'); // to add at the end
+console.log(fruits);
+
+console.log('unshift to add in beginning');
+fruits.unshift('strawberries'); // to add in beginning
+console.log(fruits);
+
+console.log('pop to remove last item');
+fruits.pop(); // to remove last item
+console.log(fruits);
+
+console.log(Array.isArray(fruits)); //true
+console.log(Array.isArray('java')); // false
+console.log(fruits.indexOf('oranges')); // index of oranges
+console.log(fruits);
+
+
+
+console.log(fruits.concat(numbers));
+console.log(fruits.indexOf('oranges')); 
+
+//object literl - object and arrays inside an object
+
+const person = {
+    firstName : 'mia',
+    age : 25,
+    hobbies: ['music', 'movies', 'sports'],  //array
+    address: {                     //object
+        street : '10main street',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
+console.log(person);
+console.log(person.name,person.age);
+console.log(person.hobbies[1]);
+console.log(person.address.city);
+
+//destructuring - recent updates- getting the variables inside the object literal
+const {firstName, age} = person; //not assigning - pulling the variables form thhe object persob
+console.log(firstName); //mia
+
+//const {firstName, age, address : {city}} = person;
+//console.log(city); //boston
+
+//add properties
+person.email = 'abc@gmail.com';
+
+//object with arryas
+const todos = [
+    {
+        id:1,
+        text: 'take a break',
+        isCOmpleted : 'true'
+    },
+    {
+        id:1,
+        text: 'dr appointment',
+        isCOmpleted : 'true'
+    },
+    {
+         id:3,
+        text: 'buy groceries',
+        isCOmpleted : 'false'
+    }
+];
+
+console.log(todos);
+console.log(todos[1].text);
+
+//json - freeformatter.com
+console.log('todoJSON');
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
+//JSON stands for "JavaScript Object Notation" 
+/* [{"id":1,"text":"take a break","isCOmpleted":"true"},{"id":1,"text":"dr appointment","isCOmpleted":"true"},{"id":3,"text":"buy groceries","isCOmpleted":"false"}]
+no singl quotes in JSON format
+ */
 
 
