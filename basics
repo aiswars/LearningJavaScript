@@ -105,6 +105,27 @@ let person = {
     age : 25
     };
 
+//object- refernce tye
+let person = {
+    name : 'ice',
+    age : 25
+    };
+    console.log(person);
+
+    //object - Dot Notation - default choice - as it is concise and short
+    person.name = 'kia';
+    console.log(person.name);
+    console.log(person.age);
+
+    //object -Bracket Notation - Square Bracket
+    person['kia'] = 'mia';
+    console.log(person.name);
+
+    //object -bracket notation is used when target selection is only at runtime- like the selection or input is known only at runtime which will be selected by the user- not know which has to be selcted earlier before runtime
+    let selection = 'name';
+    person[selection] = 'sia';
+    console.log(person.name);
+
 
 
 
