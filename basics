@@ -33,7 +33,7 @@ executing on cmd prompt >> go the folder location open cmd prompt > type node in
 in VSCode there is an integrated terminal>> open that - VSCOde>View>Integrated terminal - will open with folder pointing to the current working folder- the same folder where the index.js and index.html files are present
 or open new terminal- select the workong folder- in terminal type node index.js 
 
-
+==================================================================================================================================
 
 
 
@@ -52,6 +52,7 @@ let name = 'ice';
 console.log(name);
 
 create a new .js file and give its reference in html file in <script src=
+outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
 
 let datatype - for variables
 rules for the names 
@@ -81,6 +82,7 @@ symbol - ?? in es6
 
 typeof - to use to dtermine the the type of the variable - typeof name >> String,  typeof selectedColor is object
  typeof name1 >> undefined 
+outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
 
 dynamic language type of the variable can be changed at runtime. can be is determined at runtime
 
@@ -125,9 +127,26 @@ let person = {
     let selection = 'name';
     person[selection] = 'sia';
     console.log(person.name);
+    
+    
+    //object -bracket notation is used when target selection is only at runtime-
+    like the selection or input is known only at runtime which will be selected by the user- not know which has to be selcted earlier before runtime
+  
 
 
+//Array- refernce type
 
+//let selectedColors = []; //[] - array literal
+let selectedColors = ['red', 'blue']; 
+console.log(selectedColors[0]); //red
+selectedColors[2]='green';
+console.log(selectedColors);  //(3) ['red', 'blue', 'green']
+console.log(selectedColors.length); //3
+on console>> typeof selectedColors >> object
+
+Array is a datastructure to store a list of items like items in a cart or a list of colors
+array length is dynamic and the type is also dynamic- unlike other pgmimg languages js can takes any type of data in an array
+typeof array>> object - typeof arrayname - array is an object in JS
 
 
 
