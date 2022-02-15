@@ -66,6 +66,7 @@ can declare multiple variables in same line - let firstName = 'ice' , lastName;
 
 const for declaring constants
 const InterestRate = 0.3;
+const has to be initialized
 
 
 Primitive data types/values types
@@ -82,10 +83,13 @@ symbol - ?? in es6
 
 typeof - to use to dtermine the the type of the variable - typeof name >> String,  typeof selectedColor is object
  typeof name1 >> undefined 
+ on console type typeof name1
 outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
+console.log( typeof name1); //undefined
+console.log( typeof selectedColor); //object
+
 
 dynamic language type of the variable can be changed at runtime. can be is determined at runtime
-
 but if name = 1 is given then typedef name will give as number.
 Java is statci language = String name ='ice' cannot be chnaged to 1 - will give error
 
