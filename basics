@@ -89,6 +89,8 @@ dynamic language type of the variable can be changed at runtime. can be is deter
 but if name = 1 is given then typedef name will give as number.
 Java is statci language = String name ='ice' cannot be chnaged to 1 - will give error
 
+outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
+
 
 
 Reference tYpes
@@ -131,7 +133,8 @@ let person = {
     
     //object -bracket notation is used when target selection is only at runtime-
     like the selection or input is known only at runtime which will be selected by the user- not know which has to be selcted earlier before runtime
-  
+  outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
+
 
 
 //Array- refernce type
@@ -147,7 +150,58 @@ on console>> typeof selectedColors >> object
 Array is a datastructure to store a list of items like items in a cart or a list of colors
 array length is dynamic and the type is also dynamic- unlike other pgmimg languages js can takes any type of data in an array
 typeof array>> object - typeof arrayname - array is an object in JS
+outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
 
+
+
+Functions - reference type
+Functions are the fundamental blocks in JS. functions are a set of statements to perform a task. or clculating a value
+function is the keyword
+function functionname() {
+// body of the function
+}
+
+//function- refernce type //perform a task.
+function hello(){
+console.log("Hello hello");
+}   // function declaration
+
+hello(); //function calling
+
+//function with parameters- refernce type
+function greet(namefun) {    //function declaration with parameters -varibalename namefun in the function is the parameter of the function
+    console.log("Hello hello " + namefun);   //the variable namefun will work only inside this function
+    }   // function declaration
+greet('ice'); //function calling- passing arguments - the value -ice >>   values passing tot he function is the argument of the function
+ console.log("Hello hello " + namefun);  >> Hello hello ice
+outputs on console- js code in js file which is referenced to an html file tha is opened with live server in VSCOde
+can change the input >> greet('kia'); Hello hello kia
+greet('ice'); //function calling- passing arguments
+greet('kia'); //  console.log("Hello hello " + namefun); - Hello hello kia  
+
+//function with multiple parameters- refernce type
+function greet(namefun, namefun2){    //function with 2 parameters
+    console.log("Hello hello " + namefun+ " " +namefun2);    // Hello hello mia sia  
+}  // function declaration
+    
+greet('mia','sia'); //function calling- passing 2 arguments
+ 
+ function calculates and returns a value
+ //function returning  a value
+//function  - calculating a value
+function square(number){
+   return number * number;   //function returning  a value
+}
+square(2);   //just calling the function - the return value is not used 
+let squareVal = square(3); //calling the function and stored te returned value to a variable
+console.log(squareVal); //9 displaying the stored returned value
+console.log(square(3)); //9 calling the function and displaying the returned value directly
+
+parameters and arguments of the function >>>> 
+ //function declaration with parameters - varibalename in the function at the time of function declaration is the parameter of the function
+ //function calling- passing arguments - and the values passing to the function at the time of finction calling is the argument of the function
+
+console.log() is also a function
 
 
 
