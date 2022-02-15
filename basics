@@ -1,7 +1,25 @@
+pgming with mosh
+------------------------
 data type var was only ealier till ES6 version
 now let,const and var available
 
 Node js ia a c++ program with V8 engine of google chrome JS engine
 Node js is a javascript runtime bulit on Chrome's V8 script engine.
 
-in VSCOde > new file > type ! press tab - to get a default html
+in VSCOde > new file - index.html > type ! press tab - to get a default html
+open extensions tab >> search for live server - Ritwick Dey dev local server>> install live server - to serve the webapplicatins--  
+then restart vscode >> explorer tab then right click index.html - open with live server to open the default browser/chrome pointed to the adrress- from thats where the webapplication is served from
+html is the contents on the web (webcontents) and js is the behavior for this webelements like- what to do when hover on the webelement, hiding oe showing the elements- how a webpage should behave
+
+its better to practice putting <script> tag should be at the bottom of the html file in <body> - 2 reasons
+1. browser parses file from top to the bottom so if the js is in top <head> section then lot of js code might be there so browser might be busy parsing and executing this js code 
+    and it wont be able to render the content of the page this will create a bad user experience - user might see a blank space or white space while the browser is busy parsing and executing the 
+    js code
+2. almost always the code that is inbetween script elements needs to talk  to the elements on this webpage. like hiding or showing the elements so by adding the script at bottom
+    it is ensured that the elements are rendered by beowser. there are exception for this rule like in some cases the jscode has to be in the head section, but that are exceptions.
+so js can be written in html file in <script> tag - inline js
+but for a huge application this is not the right way - the js code has to be in separate files from the html page. combine these js files as bundle and there are ways to serve to the application
+to separate the js from html file - create a file with extension-  .js >> index.js   >>>  
+and then in html file -index.html put this index.js file has to be refrenced to the index.html file - in <script attribute src and set to index.js need to refrence that file to here
+ <script src= "index.js">
+
