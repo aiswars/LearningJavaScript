@@ -67,7 +67,43 @@ const for declaring constants
 const InterestRate = 0.3;
 
 
+Primitive data types/values types
+-------------------------------------
 
+String - let name = 'ice'; //string literal - the type is String
+Number - let age = 25; //number literal - the type is number
+boolean - let isClear = false; //boolean literal - the type is boolean
+undefined - let name; //if no value assigned by default the value is set as undefined. can set explicitly >> let name1 = undefined; - the type and value is undefined
+            let name1 = undefined; >> so here the value is undefined,  the type is also undefined - typeof name1 >> undefined 
+null - to clear the value of a varibale  - let selectedColor = null //string literal >> typeof selectedColor is object -  the type is object
+
+symbol - ?? in es6
+
+typeof - to use to dtermine the the type of the variable - typeof name >> String,  typeof selectedColor is object
+ typeof name1 >> undefined 
+
+dynamic language type of the variable can be changed at runtime. can be is determined at runtime
+
+but if name = 1 is given then typedef name will give as number.
+Java is statci language = String name ='ice' cannot be chnaged to 1 - will give error
+
+
+
+Reference tYpes
+------------------
+
+object
+Array
+Function
+
+object - like a real world object.
+let or const can be used.
+let person = {};  //object literal -{}
+let person =  {}; - between {} one or more key values can be paired.
+let person = {
+    name : 'ice' ,
+    age : 25
+    };
 
 
 
