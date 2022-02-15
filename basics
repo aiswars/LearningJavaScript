@@ -37,6 +37,26 @@ or open new terminal- select the workong folder- in terminal type node index.js
 
 
 
+Data type
+Data type var was only ealier till ES6 version
+now let,const and var available
+
+Node js ia a c++ program with V8 engine of google chrome JS engine
+Node js is a javascript runtime bulit on Chrome's V8 script engine.
+
+by default the value of variables in js is undefined 
+let name;
+console.log(name);
+can initialize the value for variables >> 
+let name = 'ice';
+console.log(name);
+
+create a new .js file and give its reference in html file in <script src=
+
+
+
+
+
 
 
 
